@@ -1,0 +1,389 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.dropdown-content a{
+  font-size: 10px;
+}
+  .img{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    margin-top: -81vh;
+  }
+  .img2{
+   visibility: hidden;
+  }
+#google-map {
+    width: 480px;
+    margin-top: 70px; 
+    border: 0; 
+    margin-right: 4vw; 
+    justify-content: right;
+}
+ .te0{
+  padding-top: 10vh; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 30px; 
+  text-align: left;
+  margin-left: 9vw;
+ }
+ .te1{
+  margin-top: 2vh; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px; 
+  text-align: left;
+  margin-left: 7vw;
+ }
+  .te2{
+  width: 0.1vw;
+  height: 25vh; 
+  margin-top: -28vh;
+  margin-left: 18vw;
+  }
+  .te3{
+    margin-top: -28vh; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 28px; 
+    text-align: left; 
+    margin-left: 20vw;
+  }
+  .tx0{
+    margin-top: 10vh; 
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 40px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  .tx1{
+    width: 220px; 
+    height: 2px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 1vh;
+  }
+  .tx2{
+    font-family:'Times New Roman', Times, serif; 
+    font-size:28px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 1vh;
+  }
+  .tx3{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  @media (min-width:1900px){
+    body{
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+      
+    }
+    nav{
+      height: 125px;
+    }
+    nav ul{
+      margin-top: -164px;
+      margin-left: 750px;
+    }
+    .logo{
+      margin-left: 25px;
+    }
+    .menu-image{
+      margin-top: -90px;
+      margin-right: 38px;
+    }
+    .te0{
+      font-size: 40px;
+    }
+    .te1{
+      font-size: 33px;
+      margin-left: 9vw;
+    }
+    .te2{
+      margin-top: -23vh;
+      height: 23vh;
+      margin-left: 18vw;
+    }
+    .te3{
+      margin-top: -23vh;
+      margin-left: 19vw;
+      font-size: 33px;
+    }
+    .tx0{
+      font-size: 50px;
+    }
+    .tx1{
+      width: 260px;
+    }
+    .tx2{
+      font-size: 33px;
+    }
+    .tx3{
+      font-size: 25px;
+    }
+    .img2{
+      margin-top: 190px!important;
+    }
+
+  }
+  @media (min-width:1500px){
+    body{
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+      
+    }
+    .te0{
+      margin-left: 8vw;
+    }
+    .img2{
+      margin-top: -180px;
+    }
+  }
+@media screen and (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .item1{
+    align-items: center!important;
+    }
+  .item, .item1{
+    flex-wrap: wrap;
+  }
+  .item{
+    justify-content: center;
+    margin-top: 140px;
+  }
+  .img2{
+    visibility: visible;
+    width: 100%;
+    margin-top: -2vh;
+  }
+  .img{
+    visibility: hidden;
+  }
+  
+  
+#google-map {
+    width: 100vw;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3vh;
+    padding: 0;
+}
+.te0{
+  margin-top: -62vh;
+  margin-left: 12vw;
+  font-size: 28px;
+}
+.te1{
+  margin-left: 8vw;
+  font-size: 25px;
+  margin-top: 3vh;
+}
+.te2{
+  margin-top: -22vh;
+  margin-left: 50vw;
+  height: 22vh;
+}
+.te3{
+  margin-top: -22.5vh;
+  margin-left: 58vw;
+  font-size: 25px;
+}
+.tx0{
+  margin-left: 12vw;
+  margin-top: -10vh;
+  font-size: 30px;
+}
+.tx1{
+  margin-top: 2vh;
+  margin-left: 12vw;
+}
+.tx2{
+  margin-top: 2vh;
+  font-size: 25px;
+  margin-left: 12vw;
+}
+.tx3{
+  margin-top: 1vh;
+  font-size: 18px;
+  margin-left: 12vw;
+}
+.tx0, .tx1, .tx2, .tx3, .te0, .te1, .te2, .te3{
+  justify-content: center;
+}
+}
+@media screen and (max-width: 320px) {
+  body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .item1{
+    align-items: center;
+    }
+  .item, .item1{
+    flex-wrap: wrap;
+  }
+  .item{
+    justify-content: center;
+  }
+  .img2{
+    visibility: visible;
+    width: 100%;
+    margin-top: 0.5vh;
+  }
+  .img{
+    visibility: hidden;
+  }
+  
+#google-map {
+    width: 100vw;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4vh;
+    padding: 0;
+}
+.te0{
+  margin-top: 130px;
+  margin-left: 9vw;
+  font-size: 25px;
+}
+.te1{
+  margin-left: 7vw;
+  font-size: 23px;
+}
+.te2{
+  margin-left: 50vw;
+  margin-top: -180px;
+  height: 20vh;
+}
+.te3{
+  margin-left: 55vw;
+  font-size: 23px;
+  margin-top: -177px;
+}
+.tx0{
+  margin-left: 5vw;
+  margin-top: 7vh;
+  font-size: 20px;
+}
+.tx1{
+  margin-top: 2vh;
+  margin-left: 4vw;
+}
+.tx2{
+  margin-top: 2vh;
+  margin-left: 4vw;
+}
+.tx3{
+  margin-top: 1vh;
+  margin-left: 4vw;
+}
+}
+@media (min-width:321px) and (max-width:376px) {
+  body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .item1{
+    align-items: center;
+    }
+  .item, .item1{
+    flex-wrap: wrap;
+  }
+  .item{
+    justify-content: center;
+  }
+  .img2{
+    visibility: visible;
+    width: 100%;
+    margin-top: 0.5vh;
+  }
+  .img{
+    visibility: hidden;
+  }
+  
+#google-map {
+    width: 100vw;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3vh;
+    padding: 0;
+}
+.te0{
+  margin-top: 130px;
+  margin-left: 10vw;
+}
+.te1{
+  margin-left: 7vw;
+}
+.te2{
+  margin-left: 50vw;
+  margin-top: -220px;
+}
+.te3{
+  margin-top: -220px;
+  margin-left: 55vw;
+}
+.tx0{
+  margin-left: 5vw;
+  margin-top: 5vh;
+  font-size: 35px;
+}
+.tx1{
+  margin-top: 2vh;
+  margin-left: 4vw;
+}
+.tx2{
+  margin-top: 2vh;
+  margin-left: 4vw;
+}
+.tx3{
+  margin-left: 4vw;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+.tx0, .tx1, .tx2, .tx3, .te0, .te1, .te2, .te3{
+  justify-content: center;
+}
+}
+@media (max-width:431px){
+  body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .te0{
+    margin-top: -530px;
+  }
+  .tx0{
+    margin-left: 15vw;
+  }
+  .tx1{
+    margin-left: 16vw;
+  }
+}

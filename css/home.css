@@ -1,0 +1,14 @@
+h2{
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    margin-left: 18vw;
+    font-size: 2.9vw;
+  }
+  
+@media (max-width:768px){
+  h2{
+    font-size: 8vw;
+    margin-left: 10vw;
+    margin-top: 4vh;
+  }
+}

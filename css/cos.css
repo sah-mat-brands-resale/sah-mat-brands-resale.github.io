@@ -1,0 +1,412 @@
+#cos-cumparaturi {
+  list-style-type: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+#cos-gol {
+  text-align: center;
+  margin-top: 20vh;
+  display: none;
+  font-size: 2vw;
+  color: black;
+}
+#continua-cumparaturile {
+  display: none;
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  background-color: #C6C6C6;
+  border: 3px solid #757575;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 41vw;
+  margin-top: 3vh;
+  margin-bottom: 20vh;
+}
+#continua-cumparaturile:hover {
+  background-color: #757575;
+  transition: 0.5s;
+}
+h2{
+  margin-left: 270px;
+  font-size: 2vw;
+}
+.produs {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex; 
+  margin-left: 13vw;
+  margin-right: 45vw;
+  align-items: center; 
+}
+.produs:first-child{
+  margin-top: 50px;
+}
+.imagine-produs {
+  width: 175px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.nume-produs {
+  margin-left: 6vw;
+  vertical-align: middle;
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+.marimi-produs {
+  margin-left: 5vw; 
+  margin-top: 1vh;
+}
+.marimi-produs button {
+  border: 2px solid black;
+  padding: 8px 12px;
+  margin-right: 5px; 
+  margin-left: 1vw;
+  margin-bottom: 10px;
+  background-color: #B6B6B6;
+  color: black; 
+}
+.marime-produs button:active {
+    background-color: black; 
+    color: white; 
+}
+.eliminare-marimi2 button:last-child{
+  margin-right: -0.4vw;
+}
+
+.pret-produs {
+  margin-left: 6vw;
+  font-weight: bold;
+  font-size: 1.8vw;
+  margin-bottom: 10px;
+}
+.eliminare-produs {
+  margin-top: -0.999vh;
+  margin-left: 4vw;
+  background: none;
+  background-color: transparent;
+  border: none; 
+  padding: 0;
+  font-size: 2vw;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.eliminare-produs i {
+  margin: 0; 
+  padding: 0; 
+  transition: color 0.3s ease; 
+}
+.eliminare-produs:hover {
+  color: #757575;
+}
+#informatii-cos {
+  position: absolute;
+  top: 23vh; 
+  right: 3vw; 
+  width: 30vw;
+  height: 42vh;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#informatii-cos.ascuns {
+  display: none;
+}
+.suma-cos-container p {
+  margin-top: 2vh;
+  font-size: 1.9vw;
+}
+.suma-cos-container hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid black;
+}
+#comanda-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #C6C6C6;
+  color: black;
+  border: 3px solid #757575;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+#comanda-button:hover {
+  background-color: #757575;
+  transition: 0.5s;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999; 
+}
+#formular-comanda {
+  border: 10px solid #757575; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+#formular-comanda h2{
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+#formular label {
+  font-size: 1.3vw;
+  
+}
+#submit{
+  font-size: 1vw;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #C6C6C6;
+  color: black;
+  border: 3px solid #757575;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+#submit:hover {
+  background-color: #757575;
+  transition: 0.5s;
+}
+#formular input{
+  font-size: 1vw;
+  width: 7vw;
+  padding: 8px;
+  background-color: #C6C6C6;
+  color: black;
+  border: 3px solid #757575;
+  border-radius: 5px;
+}
+#campuri-livrare select{
+  font-size: 0.7vw;
+  width: 7vw;
+  padding: 10px;
+  background-color: #C6C6C6;
+  color: black;
+  border: 3px solid #757575;
+  border-radius: 5px; 
+}
+#adresa-magazin p{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.address{
+  font-size: 1.4vw;
+  margin-bottom: 2;
+}
+.campuri-livrare-fields {
+  display: none;
+}
+.select1{
+  margin-left: -3vw;
+}
+input[type="radio"].bullet:checked + label::before {
+  background-color: black;
+  border-color: black;
+}
+.ascuns {
+  display: none;
+}
+.row{
+  margin-top: 10vh;
+}
+@media (max-width:768px){
+  #cos-gol {
+    text-align: center;
+    margin-top: 20vh;
+    display: none;
+    font-size: 5vw;
+    color: black;
+  }
+  #continua-cumparaturile {
+    display: none;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    background-color: #C6C6C6;
+    border: 3px solid #757575;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 23vw;
+    margin-top: 3vh;
+    margin-bottom: 20vh;
+  }
+  h2{
+    margin-left: 6vw;
+    font-size: 6.5vw;
+  }
+  .produs{
+   margin-left: 3vw;
+   margin-right: 3vw;
+  }
+  .produs:first-child{
+    margin-top: 2vh;
+  }
+  .nume-produs{
+    font-size: 7vw;
+    margin-left: 2vw;
+  }
+  .pret-produs{
+    font-size: 6vw;
+    margin-left: 2vw;
+  }
+  .eliminare-produs{
+    font-size: 6vw;
+    margin-left: 2vw;
+  }
+  .marimi-produs{
+    margin-left: 2vw;
+  }
+  .eliminare-marimi2 button:last-child{
+    margin-left: 1.2vw;
+  }
+  #informatii-cos {
+    position: static;
+    margin-top: 5vh;
+    margin-bottom: -5vh;
+    width: 90%;
+    margin-left: 5vw;
+    height: 29vh;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #informatii-cos.ascuns {
+    display: none;
+  }
+
+  .suma-cos-container p {
+    margin-top: 1vh;
+    font-size: 5vw;
+  }
+
+  .suma-cos-container hr {
+    margin: 1vh 0;
+    border: none;
+    border-top: 1px solid black;
+  }
+
+  #comanda-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 1vh;
+    background-color: #C6C6C6;
+    color: black;
+    border: 3px solid #757575;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  #comanda-button:hover {
+    background-color: #757575;
+    transition: 0.5s;
+  }
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999; 
+  }
+  #formular-comanda {
+    border: 10px solid #757575; 
+    position: absolute;
+    width: 95vw;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #formular-comanda h2{
+    margin-bottom: 20px;
+    margin-left: 3vw;
+  }
+  #formular label {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  #submit{
+    font-size: 4vw;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #C6C6C6;
+    color: black;
+    border: 3px solid #757575;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  #submit:hover {
+    background-color: #757575;
+    transition: 0.5s;
+  }
+  #formular input{
+    font-size: 3vw;
+    width: 21vw;
+    padding: 8px;
+    background-color: #C6C6C6;
+    color: black;
+    border: 3px solid #757575;
+    border-radius: 5px;
+  }
+  #campuri-livrare select{
+    font-size: 3vw;
+    width: 33vw;
+    padding: 8px;
+    background-color: #C6C6C6;
+    color: black;
+    border: 3px solid #757575;
+    border-radius: 5px; 
+  }
+  #adresa-magazin p{
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .address{
+    font-size: 3.9vw;
+    margin-bottom: 2;
+  }
+  .campuri-livrare-fields {
+    display: none;
+  }
+  .select1{
+    margin-left: -3vw;
+  }
+  input[type="radio"].bullet:checked + label::before {
+    background-color: black;
+    border-color: black;
+  }
+  .ascuns {
+    display: none;
+  }
+}
