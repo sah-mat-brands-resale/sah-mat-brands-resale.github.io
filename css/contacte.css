@@ -1,7 +1,5 @@
 body{
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
 }
 .dropdown-content a{
   font-size: 10px;
@@ -95,13 +93,13 @@ body{
       margin-left: 9vw;
     }
     .te2{
-      margin-top: -23vh;
+      margin-top: -25vh;
       height: 23vh;
-      margin-left: 18vw;
+      margin-left: 19vw;
     }
     .te3{
-      margin-top: -23vh;
-      margin-left: 19vw;
+      margin-top: -25.2vh;
+      margin-left: 20vw;
       font-size: 33px;
     }
     .tx0{
@@ -117,9 +115,8 @@ body{
       font-size: 25px;
     }
     .img2{
-      margin-top: 190px!important;
+      margin-top: 0px!important;
     }
-
   }
   @media (min-width:1500px){
     body{
@@ -365,7 +362,7 @@ body{
     
   }
   .te0{
-    margin-top: -530px;
+    margin-top: -500px;
   }
   .tx0{
     margin-left: 15vw;
