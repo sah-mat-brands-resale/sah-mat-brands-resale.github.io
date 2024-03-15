@@ -352,15 +352,20 @@ body{
   justify-content: center;
 }
 }
-@media (max-width:431px){
+@media (max-width:431px) and (min-width:377px){
   body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    
   }
   .te0{
-    margin-top: -500px;
+    margin-top: -470px;
+  }
+  .te2{
+    margin-top: -24vh;
+  }
+  .te3{
+    margin-top: -25vh;
   }
   .tx0{
     margin-left: 15vw;
