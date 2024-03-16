@@ -1,13 +1,10 @@
 body{
   overflow-x: hidden;
 }
-.dropdown-content a{
-  font-size: 10px;
-}
   .img{
     width: 90vw;
     height: 60vh;
-    display: flex;
+    display: block;
     margin-top: -81vh;
   }
   .img2{
@@ -133,7 +130,7 @@ body{
     }
   }
 @media screen and (max-width: 768px) {
-  body{
+  html, body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -161,7 +158,7 @@ body{
   #google-map {
     width: 100vw;
     justify-content: center;
-    overflow: hidden;
+    overflow-x: hidden;
     margin-left: 0;
     margin-right: 0;
     margin-top: 3vh;
@@ -238,7 +235,7 @@ body{
 #google-map {
     width: 100vw;
     justify-content: center;
-    overflow: hidden;
+    overflow-x: hidden;
     margin-left: 0;
     margin-right: 0;
     margin-top: 4vh;
@@ -353,24 +350,30 @@ body{
 }
 }
 @media (max-width:431px) and (min-width:377px){
-  body{
+  html, body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
   }
   .te0{
-    margin-top: -450px;
+    overflow-x: hidden;
+    margin-top: -500px;
   }
   .te2{
-    margin-top: -23.8vh;
+    overflow-x: hidden;
+    margin-top: -20.5vh;
+    height: 19vh;
   }
   .te3{
-    margin-top: -24.5vh;
+    overflow-x: hidden;
+    margin-top: -21vh;
   }
   .tx0{
+    overflow-x: hidden;
     margin-left: 15vw;
   }
   .tx1{
+    overflow-x: hidden;
     margin-left: 16vw;
   }
 }
