@@ -17,23 +17,31 @@
     font-size: 1.5vw;
 }
 @media (max-width: 768px){
+  html, body{
+    overflow-x: hidden;
+  }
     .image1, .image2{
+      overflow-x: hidden;
         display: none;
     }
     .text1 h1 {
-        font-size: 7vw;
-      }
-    
-      .text2 h4 {
-        font-size: 5vw;
-      }
-      .flex hr{
-        width: 10vh;
-      }
-      .col-4{
-        margin-top: -3vh;
-      }
+      overflow-x: hidden;
+      font-size: 7vw;
+    }
+    .text2 h4 {
+      overflow-x: hidden;
+      font-size: 5vw;
+    }
+    .flex hr{
+      overflow-x: hidden;
+      width: 10vh;
+    }
+    .col-4{
+      overflow-x: hidden;
+      margin-top: -3vh;
+    }
 }
+
 
 
     
