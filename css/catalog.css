@@ -43,6 +43,9 @@
     z-index: 3;
 }
   @media screen and (max-width: 600px) { 
+    html, body{
+      overflow-x: hidden;
+    }
     .category{
       flex-wrap: wrap;
       width: 95%;
