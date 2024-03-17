@@ -230,6 +230,9 @@ input[type="radio"].bullet:checked + label::before {
   margin-top: 10vh;
 }
 @media (max-width:768px){
+  html, body{
+    overflow-x: hidden;
+  }
   #cos-gol {
     text-align: center;
     margin-top: 20vh;
