@@ -356,7 +356,7 @@ function ascundeCampuriLivrare() {
 
       const marimiDiv = document.createElement('div');
       marimiDiv.classList.add('marimi-produs');
-      if (produs.id >= 1 && produs.id <= 25) {
+      if (produs.id >= 1 && produs.id <= 24) {
         const marimi = ['xs', 's', 'm', 'l', 'xl'];
         marimi.forEach(function(marime) {
           const marimeButton = document.createElement('button');
@@ -367,7 +367,7 @@ function ascundeCampuriLivrare() {
           marimiDiv.appendChild(marimeButton);
         });
         listItem.classList.add('eliminare-marimi1');
-      } else if (produs.id >= 26 && produs.id <= 51) {
+      } else if (produs.id >= 25 && produs.id <= 51) {
         const marimiPapuci = [ '37', '38', '39', '40', '41'];
         marimiPapuci.forEach(function(marime) {
           const marimeButton = document.createElement('button');
