@@ -217,13 +217,13 @@ button:hover {
 }
 @media screen and (max-width: 480px) {
     .produs {
-        margin-left:15vw;
+        margin-left:12vw;
         flex-basis: calc(100% - 20px); 
     }
 }
 @media screen and (max-width:430px){
     .alert-content{
-        top: 45%!important;
+        top: 35%!important;
     }
 }
 @media screen and (max-width: 321px){
