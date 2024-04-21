@@ -458,6 +458,9 @@ input[type="radio"].bullet:checked + label::before {
   .ascuns {
     display: none;
   }
+  .row{
+    margin-left: 0vh;
+  }
 }
 @media screen and (min-width:560px) and (max-width:768px) {
   .eliminare-produs{
