@@ -494,4 +494,16 @@ footer{
         vertical-align: top;
     }
 }
+@media screen and (width:393px){
+    #numar-produse-cos {
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        top: -0.5px; 
+        right: 16px; 
+        color: black; 
+        font-size: 15px; 
+        font-weight: bold; 
+        vertical-align: top;
+    }
+}
 
