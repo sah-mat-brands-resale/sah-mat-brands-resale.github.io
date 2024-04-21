@@ -501,7 +501,7 @@ footer{
         top: -0.5px; 
         right: 16px; 
         color: black; 
-        font-size: 13px; 
+        font-size: 14px!important; 
         font-weight: bold; 
         vertical-align: top;
     }
