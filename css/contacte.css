@@ -392,14 +392,14 @@ body{
     margin: 0;
     padding: 0;
   }
-  .te0{
+.te0{
     overflow-x: hidden;
     margin-left: 14.5vw;
-    margin-top: -85vh!important;
+    margin-top: -55vh!important;
   }
   .te2{
     overflow-x: hidden;
-    margin-top: -37vh;
+    margin-top: -30vh;
     height: 26vh!important;
   }
   .te3{
@@ -409,7 +409,7 @@ body{
   .tx0{
     overflow-x: hidden;
     margin-left: 14vw!important;
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
   .tx1{
     overflow-x: hidden;
