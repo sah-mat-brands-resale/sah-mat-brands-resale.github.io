@@ -408,18 +408,18 @@ body{
   }
   .tx0{
     overflow-x: hidden;
-    margin-left: 14vw!important;
+    margin-left: 12vw!important;
     margin-top: 0vh;
   }
   .tx1{
     overflow-x: hidden;
-    margin-left: 15vw!important;
+    margin-left: 13vw!important;
   }
   .tx2{
-    margin-left: 15vw!important;
+    margin-left: 13vw!important;
   }
   .tx3{
-    margin-left: 15vw!important;
+    margin-left: 13vw!important;
   }
 }
 @media screen and (width:393px){
