@@ -507,7 +507,7 @@ input[type="radio"].bullet:checked + label::before {
 @media screen and (min-width:377px) and (max-width:431px){
     #formular-comanda{
       width: 90vw!important;
-      left: 51%;
+      left: 50%;
     }
 }
 @media screen and (min-width:321px) and (max-width:376px){
