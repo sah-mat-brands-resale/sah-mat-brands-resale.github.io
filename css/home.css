@@ -1,24 +1,92 @@
 h2{
-    margin-top: 8vh;
-    margin-bottom: 5vh;
-    margin-left: 18vw;
-    font-size: 2.9vw;
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+  margin-left: 18vw;
+  font-size: 3.5vw;
+}
+.produs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #111;
+  margin-left:65px ;
+  border: 3px solid #757575;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  flex: 0 1 calc(33.33% - 20px); 
+  transition: 400ms transform,
+                400ms box-shadow,
+                400ms backround-color;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+section{
+  padding:2rem 9%;
+}
+.review h2{
+  text-align: center;
+  font-size: 4vw;
+  color:#333;
+  margin:2rem 0;
+}
+.box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+.box{
+  flex:1 1 30rem;
+  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+  padding:3rem 2rem;
+  position: relative;
+  border:.1rem solid rgba(0,0,0,.1);
+}
+.fa-quote-right{
+  position: absolute;
+  bottom:3rem; right:3rem;
+  font-size: 6rem;
+  color:#eee;
+}
+.stars i{
+  color:black;
+  font-size: 2rem;
+}
+.box p{
+  color:#999;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-top: 2rem;
+  text-transform: none;
+}
+.user{
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+.user img{
+  height:6rem;
+  width:6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.user h3{
+  font-size: 2rem;
+  color:#333;
+}
+.user span{
+  font-size: 1.5rem;
+  color:#999;
+}
+@media screen and (min-width: 1900px) {
+  .ascuns {
+    display: none !important;
   }
-  .produs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #111;
-    margin-left:65px ;
-    border: 3px solid #757575;
-    border-radius: 25px;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    flex: 0 1 calc(33.33% - 20px); 
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
   h2{
@@ -30,6 +98,12 @@ h2{
   .produs{
     flex-basis: calc(25% - 10px)!important; 
     margin-left: 3.2vw!important;
+  }
+}
+@media screen and (width:1280px){
+  .produs{
+    flex-basis: calc(25% - 3px)!important; 
+    margin-left: 1vw!important;
   }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
@@ -44,6 +118,14 @@ h2{
     margin-left: 3vw!important;
   }
 }
+@media screen and (min-width:769px) {
+  .produs:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    background-color: #111;
+    color: #333;
+  }
+}
 @media screen and (max-width:768px){
   h2{
     font-size: 6vw;
@@ -54,17 +136,48 @@ h2{
 @media screen and (max-width:431px){
   h2{
     font-size: 10vw;
-    margin-left: 7vw;
+    margin-left: 10vw;
     margin-top: 4vh;
   }
-  .produs{ 
-    margin-left: 10vw!important;
+  .review h2{
+    font-size: 9vw;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
   }
-}
-@media screen and (width:1280px){
-  .produs{
-    flex-basis: calc(25% - 3px)!important; 
-    margin-left: 1vw!important;
+  .produs{ 
+    margin-left: 13vw!important;
+  }
+  .stars i{
+    color:black;
+    font-size: 1rem;
+  }
+  .box p{
+    color:#999;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 1rem;
+    text-transform: none;
+  }
+  .user img{
+    height:4rem;
+    width:4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  .user h3{
+    font-size: 1.5rem;
+    color:#333;
+  }
+  .user span{
+    font-size: 1rem;
+    color:#999;
+  }
+  .fa-quote-right{
+    position: absolute;
+    bottom:3rem; right:2rem;
+    font-size: 2.4rem;
+    color:#eee;
   }
 }
 @media screen and (max-width:376px){
@@ -72,10 +185,22 @@ h2{
     flex-basis: calc(25% - 3px)!important; 
     margin-left: 10vw!important;
   }
+  .fa-quote-right{
+    position: absolute;
+    bottom:3rem; right:1rem;
+    font-size: 2rem;
+    color:#eee;
+  }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:321px){
   .produs{
     flex-basis: calc(25% - 3px)!important; 
     margin-left: 3vw!important;
+  }
+  .box{
+    padding:1rem 0.5rem;
+  }
+  .fa-quote-right{
+    visibility: hidden;
   }
 }
