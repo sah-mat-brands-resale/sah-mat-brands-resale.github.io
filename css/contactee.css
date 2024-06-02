@@ -393,15 +393,46 @@ body{
     margin: 0;
     padding: 0;
   }
+.te0{
+    overflow-x: hidden;
+    margin-left: 13vw;
+    margin-top: -55vh!important;
+  }
+  .te2{
+    overflow-x: hidden;
+    margin-top: -26vh;
+    height: 25vh!important;
+  }
+  .te3{
+    overflow-x: hidden;
+    margin-top: -25vh;
+  }
+  .tx0{
+    overflow-x: hidden;
+    margin-left: 12vw!important;
+    margin-top: 0vh;
+  }
+  .tx1{
+    overflow-x: hidden;
+    margin-left: 13vw!important;
+  }
+  .tx2{
+    margin-left: 13vw!important;
+  }
+  .tx3{
+    margin-left: 13vw!important;
+  }
+}
+@media screen and (width:393px){
   .te0{
     overflow-x: hidden;
     margin-left: 14.5vw;
-    margin-top: -50vh;
+    margin-top: -55vh!important;
   }
   .te2{
     overflow-x: hidden;
     margin-top: -30vh;
-    height: 28vh;
+    height: 26vh!important;
   }
   .te3{
     overflow-x: hidden;
@@ -409,18 +440,18 @@ body{
   }
   .tx0{
     overflow-x: hidden;
-    margin-left: 16vw;
+    margin-left: 14vw!important;
     margin-top: 5vh;
   }
   .tx1{
     overflow-x: hidden;
-    margin-left: 17vw;
+    margin-left: 15vw!important;
   }
   .tx2{
-    margin-left: 17vw;
+    margin-left: 15vw!important;
   }
   .tx3{
-    margin-left: 17vw;
+    margin-left: 15vw!important;
   }
 }
 @media screen and (min-width:321px) and (max-width:376px){
