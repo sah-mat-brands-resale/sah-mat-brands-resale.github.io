@@ -395,13 +395,14 @@ body{
   }
 .te0{
     overflow-x: hidden;
-    margin-left: 13vw;
+    margin-left: 14vw;
     margin-top: -55vh!important;
   }
   .te2{
     overflow-x: hidden;
     margin-top: -26vh;
     height: 25vh!important;
+    margin-left: 12vw;
   }
   .te3{
     overflow-x: hidden;
@@ -409,18 +410,18 @@ body{
   }
   .tx0{
     overflow-x: hidden;
-    margin-left: 12vw!important;
+    margin-left: 13vw!important;
     margin-top: 0vh;
   }
   .tx1{
     overflow-x: hidden;
-    margin-left: 13vw!important;
+    margin-left: 14vw!important;
   }
   .tx2{
-    margin-left: 13vw!important;
+    margin-left: 14vw!important;
   }
   .tx3{
-    margin-left: 13vw!important;
+    margin-left: 14vw!important;
   }
 }
 @media screen and (width:393px){
