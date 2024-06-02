@@ -392,7 +392,7 @@ input[type="radio"].bullet:checked + label::before {
   #formular-comanda {
     border: 10px solid #757575; 
     position: absolute;
-    width: 95vw;
+    width: 97vw;
     top: 50%;
     left: 48.5%;
     transform: translate(-50%, -50%);
