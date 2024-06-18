@@ -54,8 +54,8 @@
     border-radius: 25px;
   }
   .swiper {
-    width: 70%;
-    height: 85%;
+    width: 65%;
+    height: 90%;
   }
 }
 @media screen and (min-width:431px) and (max-width:600px){
