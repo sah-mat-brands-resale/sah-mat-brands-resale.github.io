@@ -83,6 +83,13 @@ section{
   font-size: 1.5rem;
   color:#999;
 }
+@media screen and (width:2048px){
+  .produs{
+    flex-basis: calc(20% - 10px)!important; 
+    margin-left: 3.2vw!important;
+    width: 325px!important;
+  }
+}
 @media screen and (min-width: 1900px) {
   .ascuns {
     display: none !important;
