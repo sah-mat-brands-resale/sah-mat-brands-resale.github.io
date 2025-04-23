@@ -75,6 +75,21 @@ body{
     justify-content: center; 
     align-items: center;
 }
+@media screen and (width:2048px){
+  nav{
+    margin-bottom: 80px;
+  }
+  .te1{
+    margin-left: 7vw!important;
+  }
+  .te2{
+    margin-left: 18.5vw!important;
+  }
+  .te3{
+    margin-left: 19.5vw!important;
+    margin-top: -24.2vh!important;
+  }
+}
 @media screen and (min-width:1900px){
   body{
     overflow-x: hidden;
