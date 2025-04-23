@@ -264,6 +264,11 @@ footer{
         vertical-align: top;
     }
 }
+@media screen and (width:2048px) {
+    nav{
+        height: 110px!important;
+    }
+}
 @media screen and (min-width: 1025px) and (max-width: 1440px){
     .logo{
         margin-top: 0px;
